@@ -1,0 +1,55 @@
+#include<stdio.h>
+int main()
+{
+    int a=10,b=20,c=30,d=40;
+    if(a<b)
+    {
+        if(a<c)
+        {
+            if(a<d)
+            {
+                printf("A");
+            }
+            else
+            {
+                printf("D");
+            }
+        }
+        else
+        {
+            if(c<d)
+            {
+                printf("C");
+            }
+            else
+            {
+                printf("D");
+            }
+        }
+    }
+    else
+    {
+        if(b<c)
+        {
+            if(b<d)
+            {
+                printf("B");
+            }
+            else
+            {
+                printf("D");
+            }
+        }
+        else
+        {
+            if(c<d)
+            {
+                printf("C");
+            }
+            else
+            {
+                printf("D");
+            }
+        }
+    }
+}
